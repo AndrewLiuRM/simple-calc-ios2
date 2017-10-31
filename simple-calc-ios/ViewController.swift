@@ -70,31 +70,31 @@ class ViewController: UIViewController {
             return Double(data.count - 1);
         case "Avg":
             var result = 0.0
-            for num in 0...(data.count - 1) {
+            for num in 0...(data.count - 2) {
                 result = result + Double(data[num])!
             }
             return result / Double(data.count - 1);
         case "+":
             var result = 0.0
-            for num in 0...(data.count - 1) {
+            for num in 0...(data.count - 2) {
                 result = result + Double(data[num])!
             }
             return result
         case "-":
             var result = Double(data[0])
-            for num in 1...(data.count - 1) {
+            for num in 1...(data.count - 2) {
                 result = result! - Double(data[num])!
             }
             return result!
         case "*":
             var result = Double(data[0])
-            for num in 1...(data.count - 1) {
+            for num in 1...(data.count - 2) {
                 result = result! * Double(data[num])!
             }
             return result!
         case "/":
             var result = Double(data[0])
-            for num in 1...(data.count - 1) {
+            for num in 1...(data.count - 2) {
                 result = result! / Double(data[num])!
             }
             return result!

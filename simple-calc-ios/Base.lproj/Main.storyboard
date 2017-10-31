@@ -217,7 +217,6 @@
                                 <state key="normal" title="Space"/>
                                 <connections>
                                     <action selector="spaceClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="onF-Uz-I93"/>
-                                    <segue destination="bAO-Rg-tyf" kind="show" identifier="showAd" id="uSM-0a-lBq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAh-cR-NWO">
@@ -245,6 +244,13 @@
                                 <state key="normal" title="History"/>
                                 <connections>
                                     <segue destination="pdT-pv-bvX" kind="show" id="cWd-WI-g2U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9BO-Ye-mWT">
+                                <rect key="frame" x="324" y="185" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="bAO-Rg-tyf" kind="show" identifier="showAd" id="G9y-Fd-VAg"/>
                                 </connections>
                             </button>
                         </subviews>
